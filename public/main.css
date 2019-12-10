@@ -1,0 +1,22 @@
+body{
+  background-image: url("https://media0.giphy.com/media/z8499G57Bne3m/giphy.gif");
+background-repeat: no-repeat;
+background-size: cover;
+font-family: fantasy;
+}
+
+
+#pain{
+  font-family: sans-serif;
+  margin-left: 50%;
+  margin-top: -3%;
+  color: white;
+  font-size: 20px;
+  background-color: black;
+  background-size: contain;
+}
+
+
+#terrible{
+  font-family: monospace;
+}
