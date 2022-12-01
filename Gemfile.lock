@@ -1,22 +1,27 @@
 GEM
+  specs:
+
+GEM
   remote: https://rubygems.org/
   specs:
     addressable (2.3.8)
     chucknorris (0.0.2)
     json (1.8.6)
     mime-types (1.25.1)
-    mustermann (1.0.3)
-    rack (2.0.7)
-    rack-protection (2.0.7)
+    mustermann (2.0.2)
+      ruby2_keywords (~> 0.0.1)
+    rack (2.2.4)
+    rack-protection (2.2.3)
       rack
     rest-client (1.6.14)
       mime-types (~> 1.16)
-    sinatra (2.0.7)
-      mustermann (~> 1.0)
-      rack (~> 2.0)
-      rack-protection (= 2.0.7)
+    ruby2_keywords (0.0.5)
+    sinatra (2.2.3)
+      mustermann (~> 2.0)
+      rack (~> 2.2)
+      rack-protection (= 2.2.3)
       tilt (~> 2.0)
-    tilt (2.0.10)
+    tilt (2.0.11)
     unirest (1.1.2)
       addressable (~> 2.3.5)
       json (~> 1.8.1)
@@ -24,6 +29,7 @@ GEM
 
 PLATFORMS
   x64-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   chucknorris (~> 0.0.2)!
